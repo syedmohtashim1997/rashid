@@ -35,13 +35,16 @@
 
 
 // chapter 3 Assignment.
+
 // age=22;
 // alert("I am"+ age +" years old ");
+
 // for(var i=1;i<=20;i++){
 //     alert("You have visited" +i+ "times in my website");
 // }
 // var dateOfBirth=1997;
-// document.write("My Birth Year is"+dateOfBirth);
+// document.write("My Birth Year is"+dateOfBirth+"<br>");
+// document.write("Data type of my declared variable is number");
 
 // var visitor=["noman","Kashif","John Doe"];
 // var productName=["T-shirt","pents","trousers"];
@@ -234,8 +237,19 @@
 // var number = prompt("Please enter a number:");
 // for (i=1; i <= 10; i++)
 // {document.write( number + " x " + i + " = " + i*number + "<br>");}
+// var sub1="English";
+// var sub2="Math";
+// var sub3="Urdu";
+// document.write("<table>");
+// document.write("<tr><td>Subject <td><td>total marks<td><td>Obtained marks <td><td>Percentage <td></tr>");
+// document.write("<tr><td>English <td><td >100 <td><td>54<td><td>54% <td></tr>");
+// document.write("<tr><td>Math <td><td>100 <td><td>54 <td><td>54% <td></tr>");
+// document.write("<tr><td>Urdu <td><td>100 <td><td>48<td><td>48% <td></tr>");
+// document.write("<tr><td></td><td>300 <td><td>156<td><td>52% <td></tr>");
+// document.write("</table>");
 
 // Assignment 9-11
+
 // var cities=prompt("Enter any city");
 // if(cities=="karachi"){
 //     document.write("Welcome to city of light");
@@ -367,7 +381,7 @@
 // if("car" < "cat"){
 //     alert("car is smaller than cat");
 //     }
-    //this condition is true
+    //this condition is true bcz car is smaller than cat in this condition 
 //     var totalmarks=prompt("Enter total marks");
 //     document.write("Total marks is "+totalmarks+"<br>");
 //     var obtainmarks=prompt("Enter obtain marks");
@@ -446,7 +460,54 @@
 // else if(sign==='%'){
 //     document.write("Percentage is "+val1/val2*100+"%");
 // }
-// Assignment 12-13
+
+// Assignment 12-13 
+
+// var a="A";
+//  var b=a.charCodeAt();
+//  var q="S";
+//  var w=q.charCodeAt();
+//  var z="C";
+//  var x=z.charCodeAt();
+//  var m="I";
+//  var n=m.charCodeAt();
+// document.write("Your ASCII Code is "+b,+ " " +w,+ " " +x,+" "+n,+" "+n+"<br>");
+
+// var num1=prompt("Enter first Number");
+// var num2=prompt("Enter 2nd Number");
+// if(num1>num2){
+//     alert(num1+" is greater than "+num2);
+// }
+// else if(num1<num2){
+//     alert(num1+" is smaller than "+num2);
+// }
+// else if(num2===num1){
+//     alert(num2+" is equal to "+num1);
+// }
+
+// var number=prompt("Enter any Number here");
+// if(number==0){
+//     document.write("The Number is zero");
+// }
+// else if(number>0){
+// document.write("The Number is Positive ")
+// }
+// else if(number<0){
+//     document.write("The Number is Negative "+"<br>")
+//     }
+// else{
+//     alert("You cannot enter any character here");
+// }
+// var letters=prompt("Enter Any letter here");
+// if(letters==='a' ||letters==='e' ||letters==='i' ||letters==='o' ||letters==='u' )
+// {
+//     alert(true);
+// }
+// else {
+//     alert(false);
+// }
+
+
 // var username=prompt("Enter Your Name");
 // var password=prompt("Enter Password");
 // var password2=prompt("Enter your  2nd Password");
@@ -468,7 +529,22 @@
 // {
 // document.write("Good evening"+"<br>");
 // }
-// Assignment 13-15
+
+// var time=prompt("Enter time")
+// if(time>=0000 && time<1200){
+// document.write("Good Morning!");
+// }
+// else if(time>=1200 && time<1700){
+//     document.write("Good afternoon!");
+//     }
+//     else if(time>=1700 && time<2100){
+//         document.write("Good Evening!");
+//         }
+//         else if(time>2100 && time<2359){
+//             document.write("Good Night!");
+//             }
+// Assignment 14-16
+
 // var string=["Mahad","Fahad","Wali","Qayyum","Imran","Fayyaz"];
 // for(var i=0;i<string.length;i++){
 //     document.write(string[i]+"<br>");
@@ -503,8 +579,11 @@
 // var arr=cities.slice(2,4);
 // document.write(arr);
 // var array=["this","is","my","cat"];
-// document.write(array[0]+" "+array[1]+" "+ array[2]+" "+array[3]);
+// var join=array.join(" ");
+// document.write(join);
+
 // Assignment 17-20
+
 // for(var i=1;i<=10;i++){
 //     document.write(i+"<br>");
 // }
@@ -556,4 +635,8 @@
 // }
 // else{
 //     document.write("Sorry we dont have this item");
+// }
+
+// for(var i=5;i<=100;i=i+5){
+//     document.write(i+" , ");
 // }
